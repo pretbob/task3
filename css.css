@@ -86,13 +86,19 @@ li {
     font-size: 15px;
     margin-right: 20px;
     color: #818181;
-
-
 }
 
+.home {
+    background-color: #2295a0;
+    height: 50px;
+    font-family: Serif;
+    font-size: 15px;
+    line-height: 50px;
+}
 
-
-
+.home span:first-child {
+    margin-left: 200px;
+}
 
 
 
