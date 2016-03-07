@@ -1,0 +1,120 @@
+.topdiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #4eadd3;
+    height: 30px;
+    font-size: 15px;
+}
+
+.topdiv i {
+    margin-left: 2px;
+    background: #c0c0c0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+}
+
+.topdiv span {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.topdiv a {
+    text-decoration: none;
+}
+
+.topdiv a:last-child {
+    margin-right: 300px;
+}
+
+.topdiv a:first-child {
+  color: rebeccapurple;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 140px;
+    align-items: center;
+}
+
+.menu ul {
+
+   font-size: 15px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.m {
+    background-color: #4eadd3;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.m span {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Serif;
+
+}
+
+.metro {
+
+    font-size: 35px;
+}
+
+.spisok ul li{
+    font-size: 15px;
+    margin-right: 20px;
+    color: #818181;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
