@@ -134,19 +134,19 @@ li {
 }
 
 .all a {
-     color: #9f9f9f;
-     text-decoration: none;
+    color: #9f9f9f;
+    text-decoration: none;
     padding: 5px 5px;
 
- }
+}
 
 .all a:hover {
-    color:#ffffff;
+    color: #ffffff;
     background-color: #2bbdca;
 }
 
 .all a:focus {
-    color:#ffffff;
+    color: #ffffff;
     background-color: #2bbdca;
 }
 
@@ -173,13 +173,13 @@ li {
     margin-right: 100px;
     margin-left: 100px;
     display: flex;
-    flex-wrap:wrap;
-    }
-.content figure {
-
-    margin: 5px ;
+    flex-wrap: wrap;
 }
 
+.content figure {
+
+    margin: 5px;
+}
 
 .content span {
     font-size: 11px;
@@ -191,7 +191,6 @@ li {
     text-decoration: none;
     font-size: 20px;
     font-family: Serif;
-
 
 }
 
@@ -237,10 +236,10 @@ li {
     text-align: center;
 
 }
-    .find div {
-   font-size: 30px;
-}
 
+.find div {
+    font-size: 30px;
+}
 
 .last {
     align-items: flex-start;
@@ -261,15 +260,16 @@ li {
     font-size: 12px;
 }
 
-.last>div {
+.last > div {
 
     margin-top: 10px;
     width: 300px;
-    }
+}
 
 .last div:first-child {
     margin-left: 50px;
 }
+
 .last div:last-child {
     margin-right: 100px;
 }
@@ -288,7 +288,6 @@ footer button {
     color: #c0c0c0;
 }
 
-
 .tweet span {
     color: #BFBFBF;
     margin-left: 80%;
@@ -302,7 +301,7 @@ footer button {
 
 .last button {
     height: 24px;
-    }
+}
 
 .niz {
     display: flex;
@@ -324,6 +323,7 @@ footer button {
     text-decoration: none;
     color: #ffffff;
 }
+
 .niz ul:first-child {
     margin-left: 40px;
 
@@ -334,15 +334,14 @@ footer button {
     margin-right: 15px;
 }
 
-
-.niz div:last-child{
+.niz div:last-child {
 
     font-size: 12px;
 }
 
-.corp a{
+.corp a {
     text-decoration: none;
-    color:#BFBFBF;
+    color: #BFBFBF;
 }
 
 
