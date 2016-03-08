@@ -3,14 +3,14 @@
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    background-color: #4eadd3;
+    background-color: #f2f2f2;
     height: 30px;
     font-size: 15px;
 }
 
 .topdiv i {
     margin-left: 2px;
-    background: #c0c0c0;
+    background: #e5e5e5;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,21 +25,20 @@
 
 .topdiv a {
     text-decoration: none;
+
 }
 
 .topdiv a:last-child {
-    margin-right: 300px;
+    margin-right: 100px;
 }
 
 .topdiv a:first-child {
-  color: rebeccapurple;
+    color: #81c1d1;
 }
 
 li {
     list-style-type: none;
 }
-
-
 
 .menu {
     display: flex;
@@ -51,7 +50,7 @@ li {
 
 .menu ul {
 
-   font-size: 15px;
+    font-size: 15px;
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -69,6 +68,7 @@ li {
     height: 50px;
     margin-right: 10px;
 }
+
 .m span {
     color: white;
     font-size: 40px;
@@ -78,14 +78,19 @@ li {
 }
 
 .metro {
-
     font-size: 35px;
+    margin-right: 50px;
 }
 
-.spisok ul li{
+.spisok ul li {
     font-size: 15px;
     margin-right: 20px;
     color: #818181;
+}
+
+.spisok a {
+    color: #696969;
+    text-decoration: none;
 }
 
 .home {
@@ -97,21 +102,248 @@ li {
 }
 
 .home span:first-child {
-    margin-left: 200px;
+    margin-left: 100px;
+}
+
+.port {
+    background-color: #28b7c4;
+    height: 200px;
+    font-family: Monospaced;
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+}
+
+.port span {
+    margin-left: 100px;
+}
+
+.wibble {
+
+    font-family: "DejaVu Sans";
+    font-size: 15px;
+    color: #cbf1f4;
+}
+
+.all {
+    height: 60px;
+    margin-left: 100px;
+}
+
+.all a {
+     color: #9f9f9f;
+     text-decoration: none;
+    padding: 5px 5px;
+
+ }
+
+.all a:hover {
+    color:#ffffff;
+    background-color: #2bbdca;
+}
+
+.all a:focus {
+    color:#ffffff;
+    background-color: #2bbdca;
+}
+
+.all ul {
+    height: 40px;
+    font-size: 15px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: #f2f2f2;
+    padding: 0 0 0 15px;
+}
+
+.all ul li {
+    margin-right: 20px;
+}
+
+.all ul:last-child {
+    margin-right: 100px;
+}
+
+.content {
+    margin-right: 100px;
+    margin-left: 100px;
+    display: flex;
+    flex-wrap:wrap;
+    }
+.content figure {
+
+    margin: 5px ;
 }
 
 
+.content span {
+    font-size: 11px;
+    color: #888888;
+}
+
+.content a {
+    color: #3fa6ca;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Serif;
 
 
+}
+
+.aside {
+
+    background-color: #CBF1F4;
+    color: #21919B;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 120px;
+
+}
+
+.aside button {
+    color: #ffffff;
+    background-color: #1e828b;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.find {
+
+    background-color: #2bbdca;
+    color: #ffffff;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 80px;
+
+}
+
+.find a i {
+    height: 50px;
+    width: 50px;
+    background-color: #2296A1;
+    line-height: 50px;
+    text-align: center;
+
+}
+    .find div {
+   font-size: 30px;
+}
 
 
+.last {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #464646;
+    height: 300px;
+    padding-bottom: 30px;
+}
+
+.last h3 {
+    color: #ffffff;
+}
+
+.last p {
+
+    font-size: 12px;
+}
+
+.last>div {
+
+    margin-top: 10px;
+    width: 300px;
+    }
+
+.last div:first-child {
+    margin-left: 50px;
+}
+.last div:last-child {
+    margin-right: 100px;
+}
+
+footer button {
+    border: none;
+}
+
+.tweet p {
+    background-color: #353535;
+    padding: 10px;
+}
+
+.data span {
+    font-size: 11px;
+    color: #c0c0c0;
+}
 
 
+.tweet span {
+    color: #BFBFBF;
+    margin-left: 80%;
+    font-size: 11px;
+}
+
+.tweet a {
+    text-decoration: none;
+    color: #BFBFBF;
+}
+
+.last button {
+    height: 24px;
+    }
+
+.niz {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #353535;
+    margin: 0;
+}
+
+.niz ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 500px;
+    font-size: 13px;
+}
+
+.niz li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.niz ul:first-child {
+    margin-left: 40px;
+
+}
+
+.niz ul li {
+
+    margin-right: 15px;
+}
 
 
+.niz div:last-child{
 
+    font-size: 12px;
+}
 
-
+.corp a{
+    text-decoration: none;
+    color:#BFBFBF;
+}
 
 
 
